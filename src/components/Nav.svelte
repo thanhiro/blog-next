@@ -18,3 +18,20 @@
     </li>
   </ul>
 </nav>
+
+<style lang="pcss">
+  [aria-current] {
+    position: relative;
+    display: inline-block;
+  }
+
+  [aria-current]::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 6px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    bottom: -16px;
+  }
+</style>

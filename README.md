@@ -17,5 +17,5 @@ pnpm run dev -- --open
 ## Building
 
 ```bash
-pnpm run build
+pnpm build
 ```
