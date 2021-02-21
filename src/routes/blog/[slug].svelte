@@ -17,6 +17,10 @@
   export let post: { title: string; body: any };
 </script>
 
+<svelte:head>
+  <title>{post.title}</title>
+</svelte:head>
+
 <article class="prose">
   <h1>{post.title}</h1>
   {@html post.body}

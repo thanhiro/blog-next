@@ -2,6 +2,10 @@
   import posts from "./_posts";
 </script>
 
+<svelte:head>
+  <title>Blog</title>
+</svelte:head>
+
 <article class="prose">
   <h1>Blog posts</h1>
   {#each posts as post}

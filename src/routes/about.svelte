@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-  <title>About</title>
+  <title>{post.title}</title>
 </svelte:head>
 
 <article class="prose">
