@@ -1,3 +1,5 @@
+dependencies:
+  node-fetch: 2.6.1
 devDependencies:
   '@snowpack/plugin-build-script': 2.1.0
   '@snowpack/plugin-svelte': 3.5.2_69c5452d7880551052665b4a034652a3
@@ -1966,6 +1968,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Yt3384If5H6BYGVHiHwTL+99OzJKHhgp82S8/dktEK73T26BazdgZ4JZh92xSVtGNJvz9UbXdNAc5hcrXV42vw==
+  /node-fetch/2.6.1:
+    dev: false
+    engines:
+      node: 4.x || >=6.0.0
+    resolution:
+      integrity: sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
   /node-gyp/7.1.2:
     dependencies:
       env-paths: 2.2.0
@@ -3716,6 +3724,7 @@ specifiers:
   '@tailwindcss/typography': ^0.4.0
   autoprefixer: ^10.2.4
   cssnano: ^4.1.10
+  node-fetch: ^2.6.1
   node-sass: ^5.0.0
   postcss: ^8.2.5
   postcss-cli: ^8.3.1
