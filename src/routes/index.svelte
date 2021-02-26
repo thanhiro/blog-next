@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-    <title>Welcome</title>
+    <title>Tervetuloa</title>
 </svelte:head>
 
 <header class="text-black" style="--herobg: url('{index.hero}')">
