@@ -5,6 +5,7 @@
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
     "start": "svelte-kit start",
+    "adapt": "svelte-kit adapt",
     "marked": "node src/routes/blog/posts/_process_md.mjs"
   },
   "devDependencies": {
