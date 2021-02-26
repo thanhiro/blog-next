@@ -1,5 +1,5 @@
 <script lang="ts">
-  import posts from "./_posts";
+  import posts from "./posts/_posts.json";
 </script>
 
 <svelte:head>
