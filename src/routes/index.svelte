@@ -8,7 +8,7 @@
     <title>Welcome</title>
 </svelte:head>
 
-<header class="text-white" style="--herobg: url('{index.hero}')">
+<header class="text-black" style="--herobg: url('{index.hero}')">
   <div class="container mx-auto px-4 py-4 flex">
     <div class="flex-auto"><a href="/">LOGO</a></div>
     <div class="flex-auto"><Nav path={$page.path} /></div>

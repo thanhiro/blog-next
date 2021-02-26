@@ -54,7 +54,6 @@ collections:
     label: "Blog"
     folder: "src/routes/blog/posts"
     create: true
-    format: "json"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
       preview: true
