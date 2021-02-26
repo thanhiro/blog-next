@@ -9,6 +9,6 @@
 <article class="prose">
   <h1>Blogi</h1>
   {#each posts as post}
-    <li><a rel="prefetch" href="/blog/{post.slug}/">{post.title}</a></li>
+    <li><a rel="prefetch" href="/blog/{post.slug}">{post.title}</a></li>
   {/each}
 </article>
