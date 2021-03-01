@@ -11,6 +11,7 @@ devDependencies:
   '@tailwindcss/typography': 0.4.0_tailwindcss@2.0.3
   autoprefixer: 10.2.4_postcss@8.2.6
   cssnano: 4.1.10
+  date-fns: 2.17.0
   dompurify: 2.2.6
   front-matter: 4.0.2
   marked: 2.0.0
@@ -31,7 +32,7 @@ lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.12.13:
     dependencies:
-      '@babel/highlight': 7.12.13
+      '@babel/highlight': 7.13.8
     dev: true
     resolution:
       integrity: sha512-HV1Cm0Q3ZrpCR93tkWOYiuYIgLxZXZFVG2VgK+MBWjUqZTundupbfx2aXarXuw5Ko5aMcjtJgbSs4vUGBS5v6g==
@@ -39,14 +40,14 @@ packages:
     dev: true
     resolution:
       integrity: sha512-np/lG3uARFybkoHokJUmf1QfEvRVCPbmQeUQpKow5cQ3xWrV9i3rUHodKDJPQfTVX61qKi+UdYk8kik84n7XOw==
-  /@babel/highlight/7.12.13:
+  /@babel/highlight/7.13.8:
     dependencies:
       '@babel/helper-validator-identifier': 7.12.11
       chalk: 2.4.2
       js-tokens: 4.0.0
     dev: true
     resolution:
-      integrity: sha512-kocDQvIbgMKlWxXe9fof3TQ+gkIPOUSEYhJjqUjvKMez3krV7vbzYCDq39Oj11UAVK7JqPVGQPlgE85dPNlQww==
+      integrity: sha512-4vrIhfJyfNf+lCtXC2ck1rKSzDwciqF7IWFhXXrSOUC2O5DrVp+w4c6ed4AllTxhTkUP5x2tYj41VaxdVMMRDw==
   /@fullhuman/postcss-purgecss/3.1.3:
     dependencies:
       purgecss: 3.1.3
@@ -121,9 +122,9 @@ packages:
     dependencies:
       cheap-watch: 1.0.3
       http-proxy: 1.18.1
-      rollup: 2.39.1
-      rollup-plugin-css-chunks: 2.0.2_rollup@2.39.1
-      rollup-plugin-terser: 7.0.2_rollup@2.39.1
+      rollup: 2.40.0
+      rollup-plugin-css-chunks: 2.0.2_rollup@2.40.0
+      rollup-plugin-terser: 7.0.2_rollup@2.40.0
       sade: 1.7.4
       scorta: 1.0.0
       snowpack: 3.0.13
@@ -853,6 +854,12 @@ packages:
       node: '>=0.10'
     resolution:
       integrity: sha1-hTz6D3y+L+1d4gMmuN1YEDX24vA=
+  /date-fns/2.17.0:
+    dev: true
+    engines:
+      node: '>=0.11'
+    resolution:
+      integrity: sha512-ZEhqxUtEZeGgg9eHNSOAJ8O9xqSgiJdrL0lzSSfMF54x6KXWJiOH/xntSJ9YomJPrYH/p08t6gWjGWq1SDJlSA==
   /decamelize/1.2.0:
     dev: true
     engines:
@@ -2967,9 +2974,9 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==
-  /rollup-plugin-css-chunks/2.0.2_rollup@2.39.1:
+  /rollup-plugin-css-chunks/2.0.2_rollup@2.40.0:
     dependencies:
-      rollup: 2.39.1
+      rollup: 2.40.0
       rollup-pluginutils: 2.8.2
       sourcemap-codec: 1.4.8
       url-join: 4.0.1
@@ -2991,11 +2998,11 @@ packages:
       svelte: '>=3.5.0'
     resolution:
       integrity: sha512-vopCUq3G+25sKjwF5VilIbiY6KCuMNHP1PFvx2Vr3REBNMDllKHFZN2B9jwwC+MqNc3UPKkjXnceLPEjTjXGXg==
-  /rollup-plugin-terser/7.0.2_rollup@2.39.1:
+  /rollup-plugin-terser/7.0.2_rollup@2.40.0:
     dependencies:
       '@babel/code-frame': 7.12.13
       jest-worker: 26.6.2
-      rollup: 2.39.1
+      rollup: 2.40.0
       serialize-javascript: 4.0.0
       terser: 5.6.0
     dev: true
@@ -3018,6 +3025,15 @@ packages:
       fsevents: 2.3.2
     resolution:
       integrity: sha512-9rfr0Z6j+vE+eayfNVFr1KZ+k+jiUl2+0e4quZafy1x6SFCjzFspfRSO2ZZQeWeX9noeDTUDgg6eCENiEPFvQg==
+  /rollup/2.40.0:
+    dev: true
+    engines:
+      node: '>=10.0.0'
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
+    resolution:
+      integrity: sha512-WiOGAPbXoHu+TOz6hyYUxIksOwsY/21TRWoO593jgYt8mvYafYqQl+axaA8y1z2HFazNUUrsMSjahV2A6/2R9A==
   /run-parallel/1.2.0:
     dependencies:
       queue-microtask: 1.2.2
@@ -3777,6 +3793,7 @@ specifiers:
   '@tailwindcss/typography': ^0.4.0
   autoprefixer: ^10.2.4
   cssnano: ^4.1.10
+  date-fns: ^2.17.0
   dompurify: ^2.2.6
   front-matter: ^4.0.2
   marked: ^2.0.0

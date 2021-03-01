@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "2021-02-20-huomenna-suomi-on-vihrea",
+    "title": "Huomenna Suomi on vihreä",
+    "date": "2021-02-20T15:04:10.000Z",
+    "description": "Huomenna Suomi on vihreä 💚",
+    "tags": [
+      "vaalit"
+    ],
+    "body": "<blockquote>\n<p>Mikään ei muutu ilman päättäväisyyttä.</p>\n<p>Sen ansiosta meillä on kadehdittu koulutus- järjestelmämme, korvaamattomat lähimetsämme, talojemme maalämpöratkaisut, kasvisruokakeksintömme ja kykymme asettua toisen asemaan.</p>\n<p>Me suomalaiset pystymme mihin tahansa, kun päätämme niin.</p>\n</blockquote>\n<p><strong>Ja vähän normaaliakin tekstiä.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n<p>Ja <a href=\"http://www.vihreat.fi\">linkki</a>.</p>\n<h2 id=\"otsikko\">Otsikko</h2>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>\n<h2 id=\"otsikko-1\">Otsikko</h2>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>\n"
+  },
+  {
+    "slug": "2021-02-19-vihreat-muuttava-maailmaa",
+    "title": "Vihreät muuttavat maailmaa, jotta elämä maapallolla voi kukoistaa",
+    "date": "2021-02-19T15:04:10.000Z",
+    "description": "Diibadaaba",
+    "tags": [
+      "ilmastonmuutos",
+      "sukupuuttoaalto"
+    ],
+    "body": "<p>Teemme työtä ilmastonmuutoksen ja kuudennen sukupuuttoaallon pysäyttämiseksi, jotta tuleville sukupolville jää elinvoimainen maapallo. Taistelemme tasa-arvoisen, turvallisen ja oikeudenmukaisen tulevaisuuden puolesta. Puolustamme luontoa ja ihmisiä ahneutta ja lyhytnäköisyyttä vastaan. Teemme politiikkaa periaatteidemme ja tutkitun tiedon pohjalta emmekä eturyhmien lähtökohdista. Annamme äänen niille, joiden ääni ei muuten kuulu – luonnolle, eläimille ja tuleville sukupolville – ja varmistamme, että haavoittuvassa asemassa olevat saavat äänensä kuuluviin.</p>\n<p><img src=\"/img/erosion.jpg\" alt=\"\"></p>\n"
+  }
+]

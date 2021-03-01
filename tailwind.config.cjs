@@ -19,7 +19,27 @@ module.exports = {
     },
   },
   theme: {
-    extend: {},
+    extend: {
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            color: theme("colors.gray.800"),
+            fontFamily: "Cormorant Garamond",
+            h1: {
+              color: theme("colors.green.800"),
+              fontFamily: "Roboto Slab",
+              fontWeight: 600,
+            },
+            a: {
+              color: theme("colors.green.400"),
+              "&:hover": {
+                color: theme("colors.green.800"),
+              },
+            },
+          },
+        },
+      }),
+    },
   },
   variants: {
     extend: {},

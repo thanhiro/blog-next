@@ -1,9 +1,6 @@
 ---
-templateKey: blog-post
 title: Vihreät muuttavat maailmaa, jotta elämä maapallolla voi kukoistaa
 date: 2021-02-19T15:04:10.000Z
-featuredpost: false
-featuredimage: /img/flavor_wheel.jpg
 description: Diibadaaba
 tags:
   - ilmastonmuutos

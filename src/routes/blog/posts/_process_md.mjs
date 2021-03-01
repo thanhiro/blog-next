@@ -20,7 +20,7 @@ readdir(__dirname)
     const mds = contents.reduce((acc, y) => {
       const data = frontmatter(y.content);
       const body = marked(data.body);
-      acc.push({
+      acc.unshift({
         slug: y.name.replace(".md", ""),
         ...data.attributes,
         body,
@@ -30,6 +30,6 @@ readdir(__dirname)
 
     writeFile(
       path.resolve(__dirname, `_posts.json`),
-      JSON.stringify(mds)
+      JSON.stringify(mds, null, 2)
     ).then(() => console.log("Posts JSON written"));
   });

@@ -14,14 +14,28 @@
 </script>
 
 <script lang="ts">
-  export let post: { title: string; body: any };
+  import { format, parseISO } from "date-fns";
+
+  export let post: { title: string; body: any; date: string };
+
+  export let publishDate = parseISO(post.date);
 </script>
 
 <svelte:head>
   <title>{post.title}</title>
 </svelte:head>
 
-<article class="prose">
-  <h1>{post.title}</h1>
-  {@html post.body}
-</article>
+<div>
+  <a
+    href="/blog/"
+    class="text-base md:text-sm text-green-500 font-bold no-underline hover:underline"
+    >&laquo; Blogiin</a
+  >
+  <article class="mt-2 prose">
+    <header>
+      <h1 text-red>{post.title}</h1>
+      <time datetime={post.date}>{format(publishDate, "dd.MM.yyyy")}</time>
+    </header>
+    {@html post.body}
+  </article>
+</div>

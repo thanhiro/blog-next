@@ -5,14 +5,14 @@
 <nav>
   <ul class="flex justify-end">
     <li class="mr-6">
-      <a aria-current={path === "/about/" ? "page" : undefined} href="/about/"
+      <a aria-current={path === "/about" || path === "/about/" ? "page" : undefined} href="/about/"
         >Arvot</a
       >
     </li>
     <li class="mr-6">
       <a
         rel="prefetch"
-        aria-current={path === "/blog/" ? "page" : undefined}
+        aria-current={path === "/blog" || path.startsWith("/blog/") ? "page" : undefined}
         href="/blog/">Blogi</a
       >
     </li>
